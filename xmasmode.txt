@@ -223,7 +223,6 @@ else
     warn("Папка CurrentRooms не найдена или не является папкой.")
 end
 
-while true do
 wait(2)
 -- Функция для обработки модели "Window"
 local function processWindowModel(windowModel)
@@ -289,8 +288,6 @@ if currentRooms and currentRooms:IsA("Folder") then
     end)
 else
     warn("Папка CurrentRooms не найдена или не является папкой.")
-end
- task.wait(1)  -- Wait for 1 second to prevent the loop from running too fast
 end
 
 
