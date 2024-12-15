@@ -1,3 +1,4 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("CHRISTMAS Mode initiated! Scipt by Chill guy",true)
 -- Функция для добавления эффектов
 local function addLightingEffects()
     local lighting = game:GetService("Lighting")
