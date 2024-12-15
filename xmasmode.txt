@@ -31,7 +31,7 @@ local sound = Instance.new("Sound")
 sound.Name = "BackgroundMusic"
 sound.SoundId = "rbxassetid://1838667764" -- Замените на ID вашей музыки
 sound.Looped = true -- Включить повтор
-sound.Volume = 0.5 -- Громкость (от 0 до 1)
+sound.Volume = 0.4 -- Громкость (от 0 до 1)
 
 -- Добавляем звук в Workspace (или в другое подходящее место, например, Lighting)
 sound.Parent = workspace
